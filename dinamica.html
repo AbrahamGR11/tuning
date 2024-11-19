@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DINÁMICA - Sopa de Letras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dynamic-container">
+        <div class="header">
+            <a href="menu.html" class="menu-btnnn">Menú</a>
+            <div class="logo1">
+                <img src="logo1.png" alt="Logo">
+            </div>
+        </div>
+        <h1 class="dynamic-title">Sopa de Letras</h1>
+        <p class="dynamic-instructions">Subraya las palabras encontradas:</p>
+        <div class="word-search" id="word-search">
+            <div class="grid">
+
+                <div class="row">
+                    <span class="cell" data-letter="F">F</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="C">D</span>
+                    <span class="cell" data-letter="A">A</span>
+                    <span class="cell" data-letter="S">D</span>
+                    <span class="cell" data-letter="E">E</span>
+                    <span class="cell" data-letter="X">X</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="O">O</span>
+                    <span class="cell" data-letter="G">G</span>
+                    <span class="cell" data-letter="B">B</span>
+                    <span class="cell" data-letter="I">I</span>
+                    
+                </div>
+
+
+                <!-- Fila 1 -->
+                <div class="row">
+                    <span class="cell" data-letter="E">E</span>
+                    <span class="cell" data-letter="F">F</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="C">C</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="E">E</span>
+                    <span class="cell" data-letter="N">N</span>
+                    <span class="cell" data-letter="C">C</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="A">A</span>
+                    <span class="cell" data-letter="R">R</span>
+                    <span class="cell" data-letter="T">T</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="F">F</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="C">C</span>
+                    <span class="cell" data-letter="A">A</span>
+                    <span class="cell" data-letter="G">G</span>
+                </div>
+                <!-- Fila 2 -->
+                <div class="row">
+                    <span class="cell" data-letter="P">P</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="A">A</span>
+                    <span class="cell" data-letter="N">N</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="F">F</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="C">C</span>
+                    <span class="cell" data-letter="A">I</span>
+                    <span class="cell" data-letter="G">O</span>
+                    <span class="cell" data-letter="M">N</span>
+                    <span class="cell" data-letter="Z">Z</span>
+                </div>
+
+                <div class="row">
+                    <span class="cell" data-letter="F">F</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="C">D</span>
+                    <span class="cell" data-letter="A">A</span>
+                    <span class="cell" data-letter="S">D</span>
+                    <span class="cell" data-letter="E">E</span>
+                    <span class="cell" data-letter="X">X</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="O">O</span>
+                    <span class="cell" data-letter="G">G</span>
+                    <span class="cell" data-letter="B">B</span>
+                    <span class="cell" data-letter="I">I</span>
+                    
+                </div>
+                <!-- Fila 3 -->
+                <div class="row">
+                    <span class="cell" data-letter="P">P</span>
+                    <span class="cell" data-letter="R">R</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="O">O</span>
+                    <span class="cell" data-letter="R">R</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="D">D</span>
+                    <span class="cell" data-letter="A">A</span>
+                    <span class="cell" data-letter="D">D</span>
+                    <span class="cell" data-letter="X">X</span>
+                    <span class="cell" data-letter="Y">Y</span>
+                    <span class="cell" data-letter="B">B</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="F">F</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="O">O</span>
+                    <span class="cell" data-letter="G">G</span>
+                </div>
+                <!-- Fila 4 -->
+                <div class="row">
+                    <span class="cell" data-letter="M">M</span>
+                    <span class="cell" data-letter="E">E</span>
+                    <span class="cell" data-letter="T">T</span>
+                    <span class="cell" data-letter="O">O</span>
+                    <span class="cell" data-letter="D">D</span>
+                    <span class="cell" data-letter="O">O</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="O">O</span>
+                    <span class="cell" data-letter="G">G</span>
+                    <span class="cell" data-letter="H">I</span>
+                    <span class="cell" data-letter="Q">A</span>
+                    <span class="cell" data-letter="W">W</span>
+                </div>
+                <div class="row">
+                    <span class="cell" data-letter="F">F</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="C">D</span>
+                    <span class="cell" data-letter="A">A</span>
+                    <span class="cell" data-letter="S">D</span>
+                    <span class="cell" data-letter="E">E</span>
+                    <span class="cell" data-letter="X">X</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="O">O</span>
+                    <span class="cell" data-letter="G">G</span>
+                    <span class="cell" data-letter="B">B</span>
+                    <span class="cell" data-letter="I">I</span>
+                    
+                </div>
+
+                <!-- Fila 5 -->
+                <div class="row">
+                    <span class="cell" data-letter="F">F</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="E">E</span>
+                    <span class="cell" data-letter="X">X</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="B">B</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="I">I</span>
+                    <span class="cell" data-letter="C">D</span>
+                    <span class="cell" data-letter="A">A</span>
+                    <span class="cell" data-letter="S">D</span>
+                    <span class="cell" data-letter="L">L</span>
+                    <span class="cell" data-letter="O">O</span>
+                    <span class="cell" data-letter="G">G</span>
+                </div>
+                <!-- Fila 6 -->
+                <div class="row">
+                    <span class="cell" data-letter="R">R</span>
+                    <span class="cell" data-letter="E">E</span>
+                    <span class="cell" data-letter="S">S</span>
+                    <span class="cell" data-letter="P">P</span>
+                    <span class="cell" data-letter="O">O</span>
+                    <span class="cell" data-letter="N">N</span>
+                    <span class="cell" data-letter="S">S</span>
+                    <span class="cell" data-letter="A">A</span>
+                    <span class="cell" data-letter="B">B</span>
+                    <span class="cell" data-letter="G">I</span>
+                    <span class="cell" data-letter="T">L</span>
+                    <span class="cell" data-letter="X">I</span>
+                    <span class="cell" data-letter="L">D</span>
+                    <span class="cell" data-letter="O">A</span>
+                    <span class="cell" data-letter="G">D</span>
+                </div>
+
+                <div class="row">
+
+                    <span class="cell" data-letter="R">R</span>
+                    <span class="cell" data-letter="E">E</span>
+                    <span class="cell" data-letter="S">S</span>
+                    <span class="cell" data-letter="S">S</span>
+                    <span class="cell" data-letter="A">A</span>
+                    <span class="cell" data-letter="B">B</span>
+                    <span class="cell" data-letter="G">I</span>
+                    <span class="cell" data-letter="T">L</span>
+                    <span class="cell" data-letter="X">I</span>
+                    <span class="cell" data-letter="L">D</span>
+                    <span class="cell" data-letter="O">A</span>
+                    <span class="cell" data-letter="G">D</span>
+                    <span class="cell" data-letter="P">P</span>
+                    <span class="cell" data-letter="O">O</span>
+                    <span class="cell" data-letter="N">N</span>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div class="word-list-container">
+            <h2 class="word-list-title">Palabras a encontrar:</h2>
+            <ul class="word-list">
+                <li>EFICIENCIA</li>
+                <li>PLANIFICACION</li>
+                <li>PRIORIDAD</li>
+                <li>METODOLOGIA</li>
+                <li>FLEXIBILIDAD</li>
+                <li>RESPONSABILIDAD</li>
+            </ul>
+        </div>
+        
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
